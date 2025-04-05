@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "FinPilot",
+    "slug": "finpilot",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.finpilot.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.finpilot.app"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "0a24dcdb-b4c2-49e2-8086-9111967f745f"
+      }
+    },
+    "owner": "arunakshkapoor",
+    "plugins": [
+      "expo-document-picker"
+    ],
+    "sdkVersion": "52.0.0"
+  }
+}
